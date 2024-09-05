@@ -1,12 +1,13 @@
 import { StatusBar } from "expo-status-bar";
 import { StyleSheet, Text, View } from "react-native";
+import TabNav from "./navigation/tabNav";
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text style={styles.text}>Arbitraged</Text>
+    <>
+      <TabNav />
       <StatusBar style="auto" />
-    </View>
+    </>
   );
 }
 
